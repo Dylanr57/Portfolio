@@ -11,6 +11,12 @@ function Header() {
                     <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
                         Home
                     </Link>
+                    <Link to="/AboutMe" className={window.location.pathname === "/AboutMe" ? "nav-link active" : "nav-link"}>
+                        About Me
+                    </Link>
+                    <Link to="/Resume" className={window.location.pathname === "/Resume" ? "nav-link active" : "nav-link"}>
+                        Resume
+                    </Link>
                     <Link to="/Portfolio" className={window.location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}>
                         Portfolio
                     </Link>

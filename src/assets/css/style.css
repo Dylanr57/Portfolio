@@ -12,3 +12,10 @@
 #email{
     font-weight: bold;
 }
+#home-img{
+    width:100%;
+}
+#resume{
+    min-width: 850px;
+    min-height: 1100px;
+}
