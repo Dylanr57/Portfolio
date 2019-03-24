@@ -3,11 +3,11 @@ import {Link} from "react-router-dom";
 
 function Header() {
     return (
-        <div classNameName="container">
+        <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <span className="navbar-brand md-0 h1">Dylan Reeves</span>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto">
+            <div className="navbar-expand ml-auto" id="navbarSupportedContent">
+                <ul className="navbar-nav ml-auto">
                     <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
                         Home
                     </Link>
