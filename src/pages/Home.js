@@ -1,9 +1,10 @@
 import React from "react";
+import CodeImg from "../assets/pictures/codeImg.jpg";
 
 function Home() {
     return(
         <div>
-            <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_1280.jpg" id="home-img"/>
+            <img src={CodeImg} id="home-img"/>
         </div>
     );
 }
