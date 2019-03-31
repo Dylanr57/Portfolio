@@ -32,7 +32,7 @@ function Portfolio(){
                         <img src={DateApp} className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h5 className="card-title">Unnamed Dating Site</h5>
-                            <p className="card-text">A dating site that allows users to maych with one another based on their preferances.</p>
+                            <p className="card-text">A dating site that allows users to match with one another based on their preferances.</p>
                             <a href="https://date-app-ucla.herokuapp.com/Profile" target="_blank" className="btn btn-primary">Try it</a>
                         </div>
                     </div>
