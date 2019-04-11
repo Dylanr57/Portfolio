@@ -2,6 +2,7 @@ import React from "react";
 import OneHundred from "../assets/pictures/100+.png";
 import MovieWallet from "../assets/pictures/movieWallet.png";
 import DateApp from "../assets/pictures/dateApp.png";
+import GithubMark from "../assets/pictures/GitHub-Mark.png";
 
 function Portfolio(){
     return(
@@ -14,6 +15,7 @@ function Portfolio(){
                             <h5 className="card-title">100k+</h5>
                             <p className="card-text">A visual google map based job search application</p>
                             <a href="https://jobsearch100k.herokuapp.com/" target="_blank" className="btn btn-primary">Try it</a>
+                            <a href="https://github.com/digibite/jobsMap" target="_blank"><img src={GithubMark} alt="Github" className="Github"></img></a>
                         </div>
                     </div>
                 </div>
@@ -24,6 +26,7 @@ function Portfolio(){
                             <h5 className="card-title">Movie Wallet</h5>
                             <p className="card-text">A movie recommendation site using Youtube to show trailers for random movies, which the user can then choose to like or dislike. The site then saves the users choices into a database they can visit to see their choices.</p>
                             <a href="https://moviewallet.herokuapp.com/" target="_blank" className="btn btn-primary">Try it</a>
+                            <a href="https://github.com/spallai/project-2-moviewallet" target="_blank"><img src={GithubMark} alt="Github" className="Github"></img></a>
                         </div>
                     </div>
                 </div>
@@ -34,6 +37,7 @@ function Portfolio(){
                             <h5 className="card-title">Unnamed Dating Site</h5>
                             <p className="card-text">A dating site that allows users to match with one another based on their preferances.</p>
                             <a href="https://date-app-ucla.herokuapp.com/Profile" target="_blank" className="btn btn-primary">Try it</a>
+                            <a href="https://github.com/shornbeek/date-app" target="_blank"><img src={GithubMark} alt="Github" className="Github"></img></a>
                         </div>
                     </div>
                 </div>

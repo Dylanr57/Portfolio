@@ -1,10 +1,10 @@
 import React from "react";
-import Resume1 from "../assets/pictures/Resume1.pdf";
+import Resume2 from "../assets/pictures/Resume2.pdf";
 
 function Resume(){
     return (
         <div>
-            <iframe id="resume" width="100%" height="100%" src={Resume1}/>
+            <iframe id="resume" width="100%" height="100%" src={Resume2}/>
         </div>
     );
 }
