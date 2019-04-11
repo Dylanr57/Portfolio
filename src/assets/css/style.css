@@ -19,10 +19,28 @@
     min-width: 850px;
     min-height: 1100px;
 }
+#headerName{
+    margin: auto;
+    font-size: 35px;
+}
+#headerTitle{
+    margin: auto;
+    border-top: solid white 1px;
+}
 .Github{
     width: 50px;
 }
 .contact-img{
     width:75px;
     margin: 10px;
+}
+.nav-link{
+    border: outset 2px grey;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.active{
+    border: inset 2px grey;
+    border-radius: 5px;
+    margin: 0 5px;
 }

@@ -4,8 +4,15 @@ import {Link} from "react-router-dom";
 function Header() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <span className="navbar-brand md-0 h1">Dylan Reeves</span>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <span className="navbar-brand md-0 h1">
+            <p id="headerName">
+            Dylan Reeves
+            </p>
+            <p id="headerTitle">
+            Full Stack Web Developer
+            </p>
+            </span>
             <div className="navbar-expand ml-auto" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
